@@ -1,7 +1,7 @@
 import React from "react";
 // import { SectionHeader, SectionHeaderWrap } from "./ProjectElements";
 import ProjectCard  from "./ProjectCard";
-import { cardOneInfo } from "./data";
+import { cardOneInfo, cardTwoInfo } from "./data";
 // import Button from 'react-bootstrap/Button';
 // import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
@@ -30,12 +30,12 @@ function Projects() {
     return (
       <Container fluid id="projects">
         <Row>
-        <header>MY Projects</header>
+        <header>My Projects</header>
         </Row>
         <Row>
         <ProjectCard {...cardOneInfo}/>
-        {/* <ProjectCard {...cardTwoInfo}/>
-        <ProjectCard {...cardThreeInfo}/>
+        <ProjectCard {...cardTwoInfo}/>
+        {/* <ProjectCard {...cardThreeInfo}/>
         <ProjectCard {...cardFourInfo}/> */}
         </Row>
       </Container>

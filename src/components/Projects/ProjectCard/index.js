@@ -27,8 +27,8 @@ function ProjectCard ({
 //   console.log(web);
 
   return (
-    <Card style={{ width: '18rem'}}>
-        <Card.Img variant="top" src={img} alt={alt} />
+    <Card className="text-center" style={{ width: '19rem'}}>
+        <Card.Img src={img} alt={alt} />
         {/* <OverlayDescription>Technologies: {description}</OverlayDescription>
         <OverlayTitle>{title}</OverlayTitle> */}
         <Card.Body>

@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container  } from 'react-bootstrap';
+import Container  from 'react-bootstrap/Container';
 import Projects  from './components/Projects';
 
 function App() {

@@ -7,3 +7,13 @@ export const cardOneInfo = {
     website: "weTravel.fun",
     repo: "https://github.com/TheDecoder007/weTravel",
   }
+
+  export const cardTwoInfo = {
+    title: "entertainMe",
+    description: "Javascript, jQuery, Bulma",
+    line: "An entertainment search site using IMDB API to pull movie info, image, and rating and displays as a card",
+    img: require("../../assets/photos/entertain-mesized.png"),
+    alt: "Screenshots of the entertainME site",
+    website: "https://vertis-z.github.io/entertain-me/",
+    repo: "https://github.com/TheDecoder007/weTravel",
+  }
