@@ -1,6 +1,7 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col'
 
 // import {
 //   ImageWrapper,
@@ -27,20 +28,15 @@ function ProjectCard ({
 //   console.log(web);
 
   return (
-    <Card className="text-center" style={{ width: '19rem'}}>
+    <Col className="WholeCard">
+    <Card className="text-center" style={{ width: '25rem', height: '30rem'}}>
         <Card.Img src={img} alt={alt} />
         {/* <OverlayDescription>Technologies: {description}</OverlayDescription>
         <OverlayTitle>{title}</OverlayTitle> */}
         <Card.Body>
           <Card.Title>{title}</Card.Title>
-          <Card.Subtitle>Technologies: {description}</Card.Subtitle>
+          <Card.Subtitle>Technologies Used: {description}</Card.Subtitle>
           <Card.Text>{line}</Card.Text>
-
-          {/* {website === repo ? (
-              <Button as="a" href={repo} target="_blank">
-              Github Repo
-            </Button>
-          ) : ( */}
               <>
               <Button as="a" href={website} target="_blank">
                 Live App
@@ -52,6 +48,8 @@ function ProjectCard ({
           {/* )} */}
           </Card.Body>
     </Card>
+    
+        </Col>
   );
 };
 

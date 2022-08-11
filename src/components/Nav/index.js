@@ -1,59 +1,26 @@
-import React, {useEffect} from "react";
+import React, { Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
-import { capitalizeFirstLetter } from "../../assets/utils/helpers";
 
+function TopNav() {
+    return (
+          <Container className="text-center">
+        <Navbar bg="light" expand="lg" sticky="top">
+            <Navbar.Brand href="home">My Portfolio</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto">
+                <Nav.Link href="/About">About</Nav.Link>
+                <Nav.Link href="/Projects">My Projects</Nav.Link>
+                <Nav.Link href="/Contact">Contact Me</Nav.Link>
 
-function Nav(props) {
-  const {
-    categories = [],
-    setCurrentCategory,
-    currentCategory,
-    contactSelected,
-    setContactSelected
-  } = props;
+              </Nav>
+            </Navbar.Collapse>
+        </Navbar>
+          </Container>
+      );
+    }
 
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
-  }, [currentCategory]);
-  
-  return (
-    <header className="flex-row px-1">
-      <h2>
-        <a data-testid="link" href="/">
-          <span role="img" aria-label="camera">
-            📸
-          </span>{" "}
-          Oh Snap!
-        </a>
-      </h2>
-      <nav>
-        <ul className="flex-row space-between">
-          <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>About Me</a>
-          </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
-          </li>
-          {categories.map((category) => (
-            <li
-            className={`mx-1" ${
-              currentCategory.name === category.name && !contactSelected && `navActive`
-            }`}
-            key={category.name}>
-                <span
-                onClick={() => {
-                  setCurrentCategory(category);
-                  setContactSelected(false);
-                }}
-                >
-                    {capitalizeFirstLetter(category.name)}
-                </span>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </header>
-  );
-}
-
-export default Nav;
+export default TopNav;

@@ -1,7 +1,7 @@
 import React from "react";
 // import { SectionHeader, SectionHeaderWrap } from "./ProjectElements";
 import ProjectCard  from "./ProjectCard";
-import { cardOneInfo, cardTwoInfo } from "./data";
+import { cardOneInfo, cardTwoInfo, cardThreeInfo, cardFourInfo, cardFiveInfo, cardSixInfo } from "./data";
 // import Button from 'react-bootstrap/Button';
 // import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
@@ -28,17 +28,19 @@ import Row from 'react-bootstrap/Row';
 
 function Projects() {
     return (
-      <Container fluid id="projects">
+      <Container id="projects">
         <Row>
-        <header>My Projects</header>
+        <h3 className="text-center">My Projects</h3>
         </Row>
-        <Row>
+        <Row className="CardRow">
         <ProjectCard {...cardOneInfo}/>
         <ProjectCard {...cardTwoInfo}/>
-        {/* <ProjectCard {...cardThreeInfo}/>
-        <ProjectCard {...cardFourInfo}/> */}
+        <ProjectCard {...cardThreeInfo}/>
+        <ProjectCard {...cardFourInfo}/>
+        <ProjectCard {...cardFiveInfo}/>
+        <ProjectCard {...cardSixInfo}/>
         </Row>
-      </Container>
+       </Container>
     );
   };
 

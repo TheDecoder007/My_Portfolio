@@ -1,18 +1,36 @@
 import React from "react";
-// import coverImage from "../../assets/cover/cover-image.jpg";
+import coverImage from "../../assets/photos/FacePic.png";
+import Container from "react-bootstrap/Container";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+
+
 
 const About = () => {
   return (
-    <section className="my-5">
-      <h1 id="about">Who am I</h1>
-      <img
-        // src={coverImage}
-        className="my-2"
-        style={{ width: "100%" }}
-        alt="cover"
-      />
-      <p>lorem ipsum impsum lorem</p>
-    </section>
+    <Container>
+<Row className="text-center">
+<Col className="AboutCard">
+   <Card style={{ width: '19rem'}}>
+    <Card.Header as="h5">Who Am I</Card.Header>
+        
+      <Card.Img variant="bottom"
+        src={coverImage}
+        alt="cover" />
+      </Card>
+        </Col>
+
+        <Col className="AboutMe">
+      <p>lorem ipsum impsum lorem lorem ipsum impsum 
+        lorem lorem ipsum impsum lorem lorem ipsum impsum lore
+        m lorem ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum i
+        mpsum lorem lorem ipsum impsum lorem lorem ipsum impsum lorem lorem
+         ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum impsum lorem 
+         lorem ipsum impsum lorem lorem ipsum impsum lorem</p>
+        </Col>
+        </Row>
+        </Container>
   );
 };
 

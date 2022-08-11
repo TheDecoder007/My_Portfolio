@@ -1,0 +1,15 @@
+.AboutCard{
+    text-align: -webkit-center;
+}
+
+.AboutMe {
+    align-self: center;
+}
+
+.CardRow {
+    text-align: -webkit-center;
+}
+
+.WholeCard {
+    padding: 15px;
+}
