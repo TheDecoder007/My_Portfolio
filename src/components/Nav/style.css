@@ -1,0 +1,6 @@
+.active-tab {
+    border-bottom: 2px solid black;
+}
+.not-active {
+    opacity: 80%;
+}

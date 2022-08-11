@@ -2,11 +2,13 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container'
 import InputGroup from 'react-bootstrap/InputGroup';
 
 function Contact() {
   return (
-      <Form>
+    <Container style={{height: '80vh', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+      <Form id ="contact" style={{}}>
         <h3 className="text-center">Please Reach Out!</h3>
       <Row>
         <Col>
@@ -17,7 +19,7 @@ function Contact() {
         </Col>
       </Row>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
+        <Form.Label></Form.Label>
         <Form.Control type="email" placeholder="Enter email" />        
       </Form.Group>
       <InputGroup>
@@ -29,6 +31,7 @@ function Contact() {
         Submit
       </Button>
     </Form>
+    </Container>
   );
 }
 
