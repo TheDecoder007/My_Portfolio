@@ -1,15 +1,59 @@
+:root {
+    --primary: black;
+    --secondary: rgb(56, 0, 0);
+    --tertiary: rgb(155, 0, 0);
+}
+
 .AboutCard{
-    text-align: -webkit-center;
+    text-align: -webkit-center; 
+    align-self: center;
+}
+
+.AboutCrd {
+    box-shadow: 0 0 10px white;
+}
+.aboutHeader {
+    background-color: black;
 }
 
 .AboutMe {
     align-self: center;
+    color: white;
 }
 
 .CardRow {
     text-align: -webkit-center;
 }
 
-.WholeCard {
+.CardCol {
     padding: 15px;
 }
+
+.wholeCard {
+    box-shadow: 0 0 10px white;
+    background-color: var(--primary);
+    color: white;
+}
+
+.AllBtn {
+    padding: 5px;
+    margin: 15px;
+    background-color: var(--secondary);
+    border: 2px solid white;
+    color: white;
+}
+
+.AllBtn:hover {
+    background-color: white;
+    color: var(--secondary);
+    border: 2px solid --secondary;
+    box-shadow: 0 0 10px white;
+    /* font-weight: bold; */
+    
+}
+
+.mainContainer {
+    background-color: var(--secondary);
+    color: white;
+}
+

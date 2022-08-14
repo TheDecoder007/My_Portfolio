@@ -28,7 +28,7 @@ import Row from 'react-bootstrap/Row';
 
 function Projects() {
     return (
-      <Container id="projects">
+      <Container fluid id="projects">
         <Row>
         <h3 className="text-center">My Projects</h3>
         </Row>

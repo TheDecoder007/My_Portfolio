@@ -1,6 +1,49 @@
+:root {
+    --primary: black;
+    --secondary: rgb(56, 0, 0);
+    --tertiary: rgb(155, 0, 0);
+}
+
 .active-tab {
-    border-bottom: 2px solid black;
+    color: white;
+    border-bottom: 2px solid white;
+    opacity: 100%;
 }
 .not-active {
-    opacity: 80%;
+    color: white;
+    /* opacity: 80%; */
+}
+
+.not-active:hover {
+    color: white;
+    text-shadow: 0 0 5px white;
+    opacity: 100%;
+}
+
+.active-tab:hover {
+    color:white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+.NavContainer {
+    color: white;
+    background-color: var(--secondary);
+    font-size: x-large;
+    padding: 10px;
+    margin: 10px;
+}
+
+.NavBrand {
+    font-size: xx-large;
+    color: white;
+}
+
+.NavBrand:hover {
+    color: white;
+}
+
+.navBar {
+    margin: 10px;
 }

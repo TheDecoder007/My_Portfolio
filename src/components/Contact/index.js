@@ -6,6 +6,8 @@ import Container from 'react-bootstrap/Container'
 import InputGroup from 'react-bootstrap/InputGroup';
 
 function Contact() {
+
+
   return (
     <Container style={{height: '80vh', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
       <Form id ="contact" style={{}}>
@@ -27,7 +29,7 @@ function Contact() {
         <Form.Control as="textarea" aria-label="With textarea" />
       </InputGroup>
 
-      <Button variant="primary" type="submit">
+      <Button className="AllBtn" variant="primary" type="submit">
         Submit
       </Button>
     </Form>

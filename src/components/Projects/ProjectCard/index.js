@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col'
 
+
 // import {
 //   ImageWrapper,
 //   DescriptionWrapper,
@@ -28,20 +29,22 @@ function ProjectCard ({
 //   console.log(web);
 
   return (
-    <Col className="WholeCard">
-    <Card className="text-center" style={{ width: '25rem', height: '30rem'}}>
+    <Col className="CardCol">
+    <Card className="text-center wholeCard" style={{ width: '27rem', height: '34rem'}}>
+    <Card.Header className="aboutHeader" as="h5">{title}</Card.Header>
+        
         <Card.Img src={img} alt={alt} />
         {/* <OverlayDescription>Technologies: {description}</OverlayDescription>
         <OverlayTitle>{title}</OverlayTitle> */}
         <Card.Body>
-          <Card.Title>{title}</Card.Title>
           <Card.Subtitle>Technologies Used: {description}</Card.Subtitle>
+          <br/>
           <Card.Text>{line}</Card.Text>
               <>
-              <Button as="a" href={website} target="_blank">
+              <Button className="AllBtn" as="a" href={website} target="_blank">
                 Live App
               </Button>
-              <Button as="a" href={repo} target="_blank">
+              <Button className="AllBtn" as="a" href={repo} target="_blank">
                 Github Repo
               </Button>
             </>

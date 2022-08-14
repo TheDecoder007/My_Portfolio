@@ -9,16 +9,17 @@ import Card from 'react-bootstrap/Card';
 
 const About = () => {
   return (
-    <Container fluid style={{height: '80vh', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-    <Container id="about">
+    // <Container fluid id="about" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+<Container fluid>
 <Row className="text-center">
 <Col className="AboutCard">
-   <Card style={{ width: '25rem'}}>
-    <Card.Header as="h5">TheDecoder007</Card.Header>
+   <Card className='AboutCrd' style={{ width: '25rem'}}>
+    <Card.Header className="aboutHeader" as="h5">TheDecoder007</Card.Header>
         
       <Card.Img variant="bottom"
-        src={coverImage}
-        alt="cover" />
+         src={coverImage} 
+        alt="cover"/>
+        
       </Card>
         </Col>
 
@@ -38,6 +39,7 @@ const About = () => {
          ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum impsum lorem 
          lorem ipsum impsum lorem lorem ipsum impsum lorem
         <br/>
+        <br/>
          lorem ipsum impsum lorem lorem ipsum impsum 
         lorem lorem ipsum impsum lorem lorem ipsum impsum lore
         m lorem ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum i
@@ -47,8 +49,7 @@ const About = () => {
          </p>
         </Col>
         </Row>
-        </Container>
-        </Container>
+       </Container>
   );
 };
 
