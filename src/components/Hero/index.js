@@ -7,15 +7,11 @@ import './style.css'
 
 const Hero = () => {
   return (
-    <Container fluid className='Hero'>
         <Row>
-            <Col>
       <video autoPlay loop muted id="video">
         <source src={Video} type="video/mp4" />
       </video>
-            </Col>
         </Row>
-     </Container>
   );
 };
 

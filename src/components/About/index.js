@@ -10,10 +10,10 @@ import Card from 'react-bootstrap/Card';
 const About = () => {
   return (
     // <Container fluid id="about" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-<Container fluid>
+<Container fluid className='aboutCont' id='about'>
 <Row className="text-center">
 <Col className="AboutCard">
-   <Card className='AboutCrd' style={{ width: '25rem'}}>
+   <Card className='AboutCrd' >
     <Card.Header className="aboutHeader" as="h5">TheDecoder007</Card.Header>
         
       <Card.Img variant="bottom"

@@ -16,14 +16,15 @@
 }
 
 .AboutCrd {
-    box-shadow: 0 0 10px whitesmoke;
+    box-shadow: 0 0 15px whitesmoke;
    margin: 20px;
+   width: 25rem;
 }
 
 .aboutHeader {
     background-color: var(--primary);
     font-size: xx-large;
-    text-shadow: 0 0 4px white;
+    text-shadow: 0 0 3px white;
 }
 
 .AboutMe {
@@ -40,7 +41,7 @@
 }
 
 .wholeCard {
-    box-shadow: 0 0 10px whitesmoke;
+    box-shadow: 0 0 15px whitesmoke;
     background-color: var(--primary);
     color: whitesmoke;
 }
@@ -80,4 +81,31 @@
     color: whitesmoke;
 }
 
+@media screen and (max-width: 992px) {
+    .aboutCont {
+       max-width: 541px;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    .aboutCont{
+        max-width: 444px;
+    }
+    .AboutCrd {
+       width:auto;
+    }
+    .AboutCard {
+        min-width: -webkit-fill-available;
+    }
+    .CardCol{
+        min-width:fit-content;
+    }
+    .wholeCard {
+        width: auto;
+        height: auto;
+        min-width: -webkit-fill-available;
+        min-height: -webkit-fill-available;
+        display: table-cell;
+    }
+}
 
