@@ -24,8 +24,8 @@ function App() {
 
   return (
     <Container fluid className="mainContainer">
-      <Hero></Hero>
      <TopNav  activeTab={activeTab} changeActiveTab={changeActiveTab}/>
+      <Hero></Hero>
     {currentPage()}    
     </Container>
   );

@@ -11,6 +11,10 @@ const About = () => {
   return (
     // <Container fluid id="about" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
 <Container fluid className='aboutCont' id='about'>
+  <Row className='aboutMe'>
+  <h3 className="text-center sectionHead">About Me</h3>
+
+  </Row>
 <Row className="text-center">
 <Col className="AboutCard">
    <Card className='AboutCrd' >

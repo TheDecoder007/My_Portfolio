@@ -28,9 +28,9 @@ import Row from 'react-bootstrap/Row';
 
 function Projects() {
     return (
-      <Container fluid id="projects">
+      <Container fluid className="projectCont" id="projects">
         <Row>
-        <h3 className="text-center">My Projects</h3>
+        <h3 className="text-center sectionHead">My Projects</h3>
         </Row>
         <Row className="CardRow">
         <ProjectCard {...cardOneInfo}/>

@@ -1,12 +1,15 @@
-import :root
+{import :root}
 
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white;
+}
 
-
-.active-tab {
+.active-tab, .nav-link.active {
     color: white;
     border-bottom: 2px solid whitesmoke;
     opacity: 100%;
 }
+
 .not-active {
     color: whitesmoke;
     opacity: 80%;
@@ -22,15 +25,27 @@ import :root
     color:whitesmoke;
 }
 
-.navbar-toggler-icon {
-    color: whitesmoke;
+.navBtn {
+    border: 1px solid whitesmoke;
+    box-shadow: 0 0 7px whitesmoke;
+    padding: 5px;
+    margin: 15px;
+    background-color: var(--primary);
 }
+
+.navBtn:hover {
+    background-color: whitesmoke;
+    border: 1px solid var(--secondary);
+    box-shadow: 0 0 10px whitesmoke;
+}
+
+
 .NavContainer {
     color: whitesmoke;
     background-color: var(--secondary);
     font-size: x-large;
-    padding: 10px;
-    margin: 10px;
+    /* padding: 10px;
+    margin: 10px; */
 }
 
 .NavBrand {

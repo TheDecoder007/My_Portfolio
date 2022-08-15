@@ -8,6 +8,7 @@
     background-color: var(--secondary);
     color: whitesmoke;
     height: 100%;
+    padding: 0px;
 }
 
 .AboutCard{
@@ -32,18 +33,35 @@
     color: whitesmoke;
 }
 
+.projectCont {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .CardRow {
     text-align: -webkit-center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .CardCol {
-    padding: 15px;
+    padding: 10px;
+    padding-bottom: 30px;
 }
 
 .wholeCard {
     box-shadow: 0 0 15px whitesmoke;
     background-color: var(--primary);
     color: whitesmoke;
+}
+
+.sectionHead {
+    font-size: xxx-large;
+    padding-bottom: 15px;
+    text-shadow: 0 0 2px white;
+    border-bottom: 2px solid whitesmoke;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .AllBtn {

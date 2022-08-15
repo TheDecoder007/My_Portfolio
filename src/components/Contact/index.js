@@ -49,14 +49,14 @@ function Contact() {
   return (
     <Container
       style={{
-        height: "80vh",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
       }}
     >
+      
       <Form id="contact" onSubmit={handleSubmit} style={{}}>
-        <h3 className="text-center">Please Reach Out!</h3>
+        <h3 className="text-center sectionHead">Please Reach Out!</h3>
         <Row>
           <Col>
             <Form.Control
