@@ -1,6 +1,6 @@
 :root {
-    --primary: black;
-    --secondary: rgb(56, 0, 0);
+    --primary: rgb(41, 61, 80);
+    --secondary: rgb(16, 39, 61);
     --tertiary: rgb(155, 0, 0);
 }
 
@@ -13,7 +13,7 @@
     box-shadow: 0 0 10px white;
 }
 .aboutHeader {
-    background-color: black;
+    background-color: var(--primary);
 }
 
 .AboutMe {

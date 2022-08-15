@@ -1,6 +1,6 @@
 :root {
     --primary: black;
-    --secondary: rgb(56, 0, 0);
+    --secondary: rgb(46, 0, 0);
     --tertiary: rgb(155, 0, 0);
 }
 
@@ -46,4 +46,5 @@
 
 .navBar {
     margin: 10px;
+    /* position: fixed; */
 }

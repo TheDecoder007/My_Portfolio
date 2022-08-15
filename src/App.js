@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import TopNav from "./components/Nav";
 import Contact from "./components/Contact";
+import Hero from "./components/Hero";
 // import Row from "react-bootstrap/Row";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <Container fluid className="mainContainer">
+      <Hero></Hero>
      <TopNav  activeTab={activeTab} changeActiveTab={changeActiveTab}/>
     {currentPage()}    
     </Container>
