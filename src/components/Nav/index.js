@@ -8,7 +8,7 @@ import './style.css'
 function TopNav({activeTab, changeActiveTab}) {
     return (
           <Container id='NavContainer' className="NavContainer">
-        <Navbar className='navBar' expand="lg" sticky="top">
+        <Navbar className='navBar' expand="lg">
             <Navbar.Brand className='NavBrand' onClick={()=> changeActiveTab("About")} href="#about"  >My Portfolio</Navbar.Brand>
             <Navbar.Toggle className='navToggle navBtn' aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className='navToggle' id="basic-navbar-nav">

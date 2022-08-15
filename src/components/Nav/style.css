@@ -1,4 +1,4 @@
-{import :root}
+/* import {:root} */
 
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: white;
@@ -42,10 +42,8 @@
 
 .NavContainer {
     color: whitesmoke;
-    background-color: var(--secondary);
+    /* background-color: var(--secondary); */
     font-size: x-large;
-    /* padding: 10px;
-    margin: 10px; */
 }
 
 .NavBrand {
@@ -57,7 +55,10 @@
     color: whitesmoke;
 }
 
-.navBar {
-    margin: 10px;
-    /* position: fixed; */
-}
+/* .navBar {
+    margin-bottom: -87px;
+} */
+
+/* .navbar-collapse {
+    margin-bottom: -100px;
+} */
