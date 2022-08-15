@@ -88,7 +88,7 @@ function Contact() {
           />
         </Form.Group>
         <InputGroup>
-          <InputGroup.Text>Your Message</InputGroup.Text>
+          <InputGroup.Text className='formText'>Your Message</InputGroup.Text>
           <Form.Control
             as="textarea"
             aria-label="With textarea"
@@ -103,7 +103,7 @@ function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <Button className="AllBtn" variant="primary" type="submit">
+        <Button className="submitBtn" variant="primary" type="submit">
           Submit
         </Button>
       </Form>

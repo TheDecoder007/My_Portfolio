@@ -4,13 +4,20 @@
     --tertiary: rgb(155, 0, 0);
 }
 
+.mainContainer {
+    background-color: var(--secondary);
+    color: whitesmoke;
+    height: 100%;
+}
+
 .AboutCard{
     text-align: -webkit-center; 
     align-self: center;
 }
 
 .AboutCrd {
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px whitesmoke;
+   margin: 20px;
 }
 .aboutHeader {
     background-color: var(--primary);
@@ -18,7 +25,7 @@
 
 .AboutMe {
     align-self: center;
-    color: white;
+    color: whitesmoke;
 }
 
 .CardRow {
@@ -30,31 +37,44 @@
 }
 
 .wholeCard {
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px whitesmoke;
     background-color: var(--primary);
-    color: white;
+    color: whitesmoke;
 }
 
 .AllBtn {
     padding: 5px;
     margin: 15px;
     background-color: var(--secondary);
-    border: 2px solid white;
-    color: white;
+    border: 1px solid var(--secondary);
+    color: whitesmoke;
 }
 
 .AllBtn:hover {
-    background-color: white;
-    color: var(--secondary);
-    border: 2px solid --secondary;
-    box-shadow: 0 0 10px white;
-    /* font-weight: bold; */
-    
-}
-
-.mainContainer {
     background-color: var(--secondary);
     color: white;
-    height: 100%;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 0 8px whitesmoke;
+    /* font-weight: bold; */ 
 }
+
+.submitBtn {
+    margin: 15px;
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+    color: whitesmoke;
+}
+
+.submitBtn:hover {
+    background-color: var(--secondary);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 0 8px whitesmoke;
+}
+
+.formText {
+    background-color: var(--primary);
+    color: whitesmoke;
+}
+
 
