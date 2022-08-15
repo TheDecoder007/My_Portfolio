@@ -55,5 +55,6 @@
 .mainContainer {
     background-color: var(--secondary);
     color: white;
+    height: 100%;
 }
 
