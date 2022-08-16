@@ -7,6 +7,7 @@ import {
   cardFourInfo,
   cardFiveInfo,
   cardSixInfo,
+  cardSevenInfo,
 } from "./data";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -24,6 +25,8 @@ function Projects() {
         <ProjectCard {...cardFourInfo} />
         <ProjectCard {...cardFiveInfo} />
         <ProjectCard {...cardSixInfo} />
+        <ProjectCard {...cardSevenInfo} />
+
       </Row>
     </Container>
   );
