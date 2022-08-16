@@ -33,7 +33,7 @@ export const cardOneInfo = {
   export const cardFourInfo = {
     title: "Last Slice Collective",
     description: "Javascript, Node, Typescript, DCL SDK",
-    line: "A web3 collective I've been working with, using Decentraland's SDK to build experiences in the Metaverse for clients around the world.",
+    line: "A web3 collective I've been working with, that onboards and builds experiences in the Metaverse for high-profile clients around the world.",
     img: require("../../assets/photos/lastslice-pic.png"),
     alt: "Screenshots of the Last Slice site",
     website: "https://LastSlice.org",
