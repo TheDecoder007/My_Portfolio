@@ -54,7 +54,6 @@ function Contact() {
         alignItems: "center",
       }}
     >
-      
       <Form id="contact" onSubmit={handleSubmit} style={{}}>
         <h3 className="text-center sectionHead">Please Reach Out!</h3>
         <Row>
@@ -88,7 +87,7 @@ function Contact() {
           />
         </Form.Group>
         <InputGroup>
-          <InputGroup.Text className='formText'>Your Message</InputGroup.Text>
+          <InputGroup.Text className="formText">Your Message</InputGroup.Text>
           <Form.Control
             as="textarea"
             aria-label="With textarea"

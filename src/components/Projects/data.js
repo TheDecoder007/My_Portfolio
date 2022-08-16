@@ -1,3 +1,6 @@
+//when refactoring, turn this into an array of objects, and use map function 
+//in the index file, instead of exporting/importing each one
+
 export const cardOneInfo = {
     title: "weTravel",
     description: "Javascript, Handlebars, Cloudinary, Sequelize, Express",

@@ -8,25 +8,23 @@ import About from "./components/About";
 import TopNav from "./components/Nav";
 import Contact from "./components/Contact";
 import Hero from "./components/Hero";
-// import Row from "react-bootstrap/Row";
 
 function App() {
-  const [activeTab,setActiveTab] = useState("About")
+  const [activeTab, setActiveTab] = useState("About");
 
- const currentPage = () =>{
-  if (activeTab === "About") return <About/>
-  if (activeTab === "Projects") return <Projects/>
-  if (activeTab === "Contact") return <Contact/>
- }
+  const currentPage = () => {
+    if (activeTab === "About") return <About />;
+    if (activeTab === "Projects") return <Projects />;
+    if (activeTab === "Contact") return <Contact />;
+  };
 
- const changeActiveTab = (tab) => setActiveTab(tab)
-
+  const changeActiveTab = (tab) => setActiveTab(tab);
 
   return (
     <Container fluid className="mainContainer">
-     <TopNav  activeTab={activeTab} changeActiveTab={changeActiveTab}/>
+      <TopNav activeTab={activeTab} changeActiveTab={changeActiveTab} />
       <Hero></Hero>
-    {currentPage()}    
+      {currentPage()}
     </Container>
   );
 }
