@@ -28,6 +28,8 @@
 .AboutMe {
     align-self: center;
     color: whitesmoke;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .projectCont {
