@@ -1,6 +1,6 @@
 {
   "homepage": "http://TheDecoder007.github.io/my-portfolio",
-  "name": "my_portfolio",
+  "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
