@@ -3,6 +3,9 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col'
 
+import Video2 from "../../../assets/videos/LightningHeader.mp4";
+
+
 
 // import {
 //   ImageWrapper,
@@ -31,8 +34,15 @@ function ProjectCard ({
   return (
     <Col className="CardCol">
     <Card className="text-center wholeCard" style={{ width: '27rem', height: '34rem'}}>
-    <Card.Header className="aboutHeader" as="h5">{title}</Card.Header>
-        
+    <Card.Header className="cardHeader">
+       <video autoPlay loop muted id="video" className="headerVid">
+        <source src={Video2} type="video/mp4" />
+      </video>
+       <div className="cardTitle">{title}</div> 
+      </Card.Header>
+
+   
+
         <Card.Img src={img} alt={alt} />
         {/* <OverlayDescription>Technologies: {description}</OverlayDescription>
         <OverlayTitle>{title}</OverlayTitle> */}

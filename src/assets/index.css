@@ -4,6 +4,7 @@
     --tertiary: rgb(155, 0, 0);
 }
 
+
 .mainContainer {
     background-color: var(--secondary);
     color: whitesmoke;
@@ -20,12 +21,6 @@
     box-shadow: 0 0 15px whitesmoke;
    margin: 20px;
    width: 25rem;
-}
-
-.aboutHeader {
-    background-color: var(--primary);
-    font-size: xx-large;
-    text-shadow: 0 0 3px white;
 }
 
 .AboutMe {
@@ -54,6 +49,31 @@
     background-color: var(--primary);
     color: whitesmoke;
 }
+
+.cardHeader {
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    border: none;
+    font-weight: bold;
+}
+
+.headerVid {
+    object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+ .cardTitle { 
+    position: relative;
+    font-size: xx-large;
+    text-shadow: 0 0 3px black;
+    color: white;
+ }
 
 .sectionHead {
     font-size: xxx-large;
