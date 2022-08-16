@@ -4,11 +4,12 @@ A personal webpage with links and descriptions of my top projects
 ## Built with
 * React/useState
 * React-bootstrap
+* Javascript
 * CSS
 
 
 ## Links
-GitHub link https://github.com/TheDecoder007/my-portfolio
+GitHub link: https://github.com/TheDecoder007/my-portfolio
 
 Deploy link: https://thedecoder007.github.io/my-portfolio/
 
