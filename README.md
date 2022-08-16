@@ -20,3 +20,4 @@ Deploy link:
 * Will be updated to full MERN stack 
 
 ## Screenshot
+![portfolio-screenshot](https://user-images.githubusercontent.com/101135574/184966209-86bda33d-8aea-4866-8bab-655c7c83c0d3.png)
