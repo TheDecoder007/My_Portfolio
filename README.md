@@ -10,7 +10,7 @@ A personal webpage with links and descriptions of my top projects
 ## Links
 GitHub link https://github.com/TheDecoder007/my_portfolio
 
-Deploy link:
+Deploy link: https://thedecoder007.github.io/my_portfolio/
 
 ### Info
 * Pages conditionally render with useState
