@@ -1,0 +1,32 @@
+import React from "react";
+import Row from "react-bootstrap/Row";
+import Nav from "react-bootstrap/Nav";
+import Video4 from "../../assets/videos/LightningHeader.mp4";
+import './style.css'
+
+
+function PageFooter() {
+
+    return (
+
+        <footer className="Footer">
+      <video autoPlay loop muted id="video" className="footerVid">
+        <source src={Video4} type="video/mp4" />
+      </video>
+      <Row>
+      <Nav className="footerLink">
+        <Nav.Item className="footerText footLink">My Links:</Nav.Item>
+        <Nav.Link className="footerText" href="https://github.com/TheDecoder007">GitHub</Nav.Link>
+        <Nav.Link className="footerText" href="">Resume</Nav.Link>
+        <Nav.Link className="footerText" href="">LinkedIn</Nav.Link>
+      </Nav>
+      </Row>
+     
+        </footer>
+
+
+ )
+}
+
+
+export default PageFooter;

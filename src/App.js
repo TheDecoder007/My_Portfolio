@@ -8,6 +8,7 @@ import About from "./components/About";
 import TopNav from "./components/Nav";
 import Contact from "./components/Contact";
 import Hero from "./components/Hero";
+import PageFooter from "./components/Footer";
 
 function App() {
   const [activeTab, setActiveTab] = useState("About");
@@ -25,6 +26,7 @@ function App() {
       <TopNav activeTab={activeTab} changeActiveTab={changeActiveTab} />
       <Hero></Hero>
       {currentPage()}
+      <PageFooter/>
     </Container>
   );
 }
