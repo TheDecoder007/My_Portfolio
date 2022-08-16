@@ -25,7 +25,7 @@ export const cardOneInfo = {
     description: "Javascript, jQuery, Bulma",
     line: "An entertainment search site using IMDB API to pull movie info, image, and rating and displays as a card.",
     img: require("../../assets/photos/entertainme.png"),
-    alt: "Screenshots of the entertainME site",
+    alt: "Screenshots of the entertainMe site",
     website: "https://vertis-z.github.io/entertain-me/",
     repo: "https://github.com/Vertis-Z/entertain-me",
   }
@@ -65,7 +65,7 @@ export const cardOneInfo = {
     description: "React, Javascript",
     line: "A class module using React to build a website that conditionally renders pages.",
     img: require("../../assets/photos/photo-port.png"),
-    alt: "Screenshots of the entertainME site",
+    alt: "Screenshots of the Photo-port site",
     website: "https://github.com/TheDecoder007/photo-port",
     repo: "https://github.com/TheDecoder007/photo-port",
   }
