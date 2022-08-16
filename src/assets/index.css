@@ -21,6 +21,8 @@
     box-shadow: 0 0 15px whitesmoke;
    margin: 20px;
    width: 25rem;
+   border-radius: 10px;
+   border: 2px solid var(--secondary);
 }
 
 .AboutMe {
@@ -48,6 +50,8 @@
     box-shadow: 0 0 15px whitesmoke;
     background-color: var(--primary);
     color: whitesmoke;
+    border-radius: 10px;
+    border: 2px solid var(--secondary);
 }
 
 .cardHeader {
@@ -58,6 +62,7 @@
     padding: 0px;
     border: none;
     font-weight: bold;
+    height: 50px;
 }
 
 .headerVid {
