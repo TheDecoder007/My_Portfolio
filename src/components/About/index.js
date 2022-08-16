@@ -28,6 +28,7 @@ const About = () => {
 
         <Col className="AboutMe">
           <p>
+            <h5>Education:</h5>
             lorem ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum impsum
             lorem lorem ipsum impsum lore m lorem ipsum impsum lorem lorem ipsum
             impsum lorem lorem ipsum i mpsum lorem lorem ipsum impsum lorem
@@ -36,6 +37,7 @@ const About = () => {
             impsum lorem
             <br />
             <br />
+            <h5>Ambitions:</h5>
             lorem ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum impsum
             lorem lorem ipsum impsum lore m lorem ipsum impsum lorem lorem ipsum
             impsum lorem lorem ipsum i mpsum lorem lorem ipsum impsum lorem
@@ -44,6 +46,7 @@ const About = () => {
             impsum lorem
             <br />
             <br />
+            <h5>Experience:</h5>            
             lorem ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum impsum
             lorem lorem ipsum impsum lore m lorem ipsum impsum lorem lorem ipsum
             impsum lorem lorem ipsum i mpsum lorem lorem ipsum impsum lorem

@@ -7,6 +7,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import InputGroup from "react-bootstrap/InputGroup";
+import Nav from "react-bootstrap/Nav";
+
 
 function Contact() {
   const [formState, setFormState] = useState({
@@ -55,10 +57,16 @@ function Contact() {
       }}
     >
       <Form id="contact" onSubmit={handleSubmit} style={{}}>
+        <div>
         <h3 className="text-center sectionHead">Please Reach Out!</h3>
+        <Nav.Link>
+          <h4 className="contactEmail" href="mailto:TheDecoder007@gmail.com">TheDecoder007@gmail.com</h4>
+        </Nav.Link>
+        </div>
         <Row>
           <Col>
             <Form.Control
+              className="formBack"
               type="text"
               defaultValue={name}
               onBlur={handleChange}
@@ -68,6 +76,7 @@ function Contact() {
           </Col>
           <Col>
             <Form.Control
+            className="formBack"
               type="text"
               defaultValue={company}
               onBlur={handleChange}
@@ -79,6 +88,7 @@ function Contact() {
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label></Form.Label>
           <Form.Control
+          className="formBack"
             type="email"
             defaultValue={email}
             onBlur={handleChange}
@@ -89,6 +99,7 @@ function Contact() {
         <InputGroup>
           <InputGroup.Text className="formText">Your Message</InputGroup.Text>
           <Form.Control
+          className="formBack"
             as="textarea"
             aria-label="With textarea"
             name="message"
