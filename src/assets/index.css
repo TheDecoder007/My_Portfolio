@@ -106,15 +106,16 @@
     padding: 5px;
     margin: 15px;
     background-color: var(--secondary);
-    border: 1px solid var(--secondary);
+    border: 1px solid var(--primary);
     color: whitesmoke;
+    box-shadow: 0 0 5px whitesmoke;
 }
 
 .AllBtn:hover {
     background-color: var(--secondary);
     color: white;
     border: 1px solid whitesmoke;
-    box-shadow: 0 0 8px whitesmoke;
+    box-shadow: 0 0 8px white;
     /* font-weight: bold; */ 
 }
 
