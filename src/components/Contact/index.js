@@ -59,9 +59,11 @@ function Contact() {
       <Form id="contact" onSubmit={handleSubmit} style={{}}>
         <div>
         <h3 className="text-center sectionHead">Please Reach Out!</h3>
-        <Nav.Link>
-          <h4 className="contactEmail" href="mailto:TheDecoder007@gmail.com">TheDecoder007@gmail.com</h4>
-        </Nav.Link>
+       
+          <h4> 
+          <Nav.Link className="contactEmail" href="mailto:TheDecoder007@gmail.com"> TheDecoder007@gmail.com</Nav.Link>
+          </h4>
+        
         </div>
         <Row>
           <Col>
