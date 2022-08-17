@@ -19,7 +19,7 @@ const About = () => {
               <video autoPlay loop muted id="video" className="headerVid">
                 <source src={Video3} type="video/mp4" />
               </video>
-              <div className="cardTitle">TheDecoder007</div>
+              <div className="cardTitle">TheDecoder</div>
             </Card.Header>
 
             <Card.Img variant="bottom" src={coverImage} alt="cover" />
