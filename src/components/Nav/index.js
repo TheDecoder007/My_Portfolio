@@ -1,10 +1,16 @@
-// import React, { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "./style.css";
 
 function TopNav({ activeTab, changeActiveTab }) {
+
+  
+useEffect(() => {
+  document.title = (activeTab);
+});
+
   return (
     <Container id="NavContainer" className="NavContainer">
       <Navbar className="navBar" expand="lg">
