@@ -13,9 +13,9 @@ function PageFooter() {
       <Row>
       <Nav className="footerLink">
         <Nav.Item className="footerText footLink">My Links:</Nav.Item>
-        <Nav.Link className="footerText" href="https://github.com/TheDecoder007">GitHub</Nav.Link>
+        <Nav.Link className="footerText" target={'_blank'} rel="noreferrer" href="https://github.com/TheDecoder007">GitHub</Nav.Link>
         <Nav.Link className="footerText" href="">Resume</Nav.Link>
-        <Nav.Link className="footerText" href="">LinkedIn</Nav.Link>
+        <Nav.Link className="footerText" target={'_blank'} rel="noreferrer" href="">LinkedIn</Nav.Link>
         <Nav.Link className="footerText" href="mailto:TheDecoder007@gmail.com">Email Me</Nav.Link>
 
       </Nav>
