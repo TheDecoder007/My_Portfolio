@@ -146,6 +146,9 @@
     .aboutCont {
        max-width: 541px;
     }
+    .footerLink {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 498px) {
@@ -168,5 +171,7 @@
         min-height: -webkit-fill-available;
         display: table-cell;
     }
+ .footerLink {
+    margin-top: 10px;
 }
-
+}

@@ -50,6 +50,7 @@
  .footLink {
     font-size: xx-large;
     padding-right: 30px;
+    padding-left: 5px
  }
 
  .footLink:hover {

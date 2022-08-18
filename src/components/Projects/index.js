@@ -28,7 +28,6 @@ function Projects() {
         <ProjectCard {...cardSixInfo} />
         <ProjectCard {...cardSevenInfo} />
         <ProjectCard {...cardEightInfo} />
-
       </Row>
     </Container>
   );
