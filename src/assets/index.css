@@ -148,6 +148,7 @@
     }
     .footerLink {
         margin-top: 10px;
+        margin-left: 10px;
     }
 }
 
@@ -173,5 +174,9 @@
     }
  .footerLink {
     margin-top: 10px;
-}
+
+    }
+    .footLink{
+        padding-left: 20px;
+    }
 }

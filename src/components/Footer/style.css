@@ -57,3 +57,36 @@
     text-shadow: none;
     color: whitesmoke;
  }
+
+ @media screen and (max-width: 392px) {
+
+    .footerText {
+       font-size: large;
+      }
+      .footLink{
+          font-size: x-large;
+          margin-left: 10px;
+      }
+}
+
+@media screen and (max-width: 326px) {
+
+   .footerText {
+      font-size: medium;
+     }
+     .footLink{
+         font-size: large;
+         margin-left: 10px;
+     }
+}
+
+@media screen and (max-width: 295px) {
+
+   .footerText {
+      font-size: small;
+     }
+     .footLink{
+         font-size: medium;
+         margin-left: 10px;
+     }
+}
