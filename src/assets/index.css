@@ -56,6 +56,23 @@
     border: 2px solid var(--secondary);
 }
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+ }
+ 
+.btnDiv {
+    padding-top: 0;
+    border: none;
+}
+
+
 .cardHeader {
     position: relative;
     overflow: hidden;
@@ -103,12 +120,14 @@
     text-shadow: 0 0 3px white;
 }
 .AllBtn {
-    padding: 5px;
+    padding: 8px;
     margin: 15px;
     background-color: var(--secondary);
     border: 1px solid var(--primary);
     color: whitesmoke;
     box-shadow: 0 0 5px whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .AllBtn:hover {
@@ -141,6 +160,7 @@
     background-color: whitesmoke;
     color: var(--secondary);
 }
+
 
 @media screen and (max-width: 992px) {
     .aboutCont {

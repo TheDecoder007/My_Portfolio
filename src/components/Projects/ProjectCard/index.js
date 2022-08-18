@@ -39,15 +39,18 @@ function ProjectCard({ img, title, description, line, alt, website, repo }) {
           <br />
           <Card.Text>{line}</Card.Text>
           <>
+          </>
+        </Card.Body>
+          <Card.Footer className="btnDiv">
             <Button className="AllBtn" as="a" href={website} target="_blank">
-              Live App
+              Live App  
             </Button>
             <Button className="AllBtn" as="a" href={repo} target="_blank">
               Github Repo
             </Button>
-          </>
+          </Card.Footer>
+         
           {/* )} */}
-        </Card.Body>
       </Card>
     </Col>
   );
