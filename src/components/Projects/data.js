@@ -1,14 +1,24 @@
 //when refactoring, turn this into an array of objects, and use map function
 //in the index file, instead of exporting/importing each one
 export const projects = [
-  {
-    title: "weTravel",
-    description: "Javascript, Handlebars, Cloudinary, Sequelize, Express",
-    line: "A travel blog site where users can login and create blogs, upload photos, and comment on other blogs.",
-    img: require("../../assets/photos/weTravel.png"),
-    alt: "Screenshots of the weTravel site",
-    website: "https://murmuring-reef-03220.herokuapp.com/",
-    repo: "https://github.com/TheDecoder007/weTravel",
+ {
+    title: "weTravelToo",
+    description: "Full MERN stack",
+    line: "A remake of weTravel, using the full MERN stack, and imporving the UI.",
+    img: require("../../assets/photos/weTravelToo.png"),
+    alt: "Screenshot of weTravelToo",
+    website:
+      "https://morning-badlands-21539.herokuapp.com/",
+    repo: "https://github.com/TheDecoder007/weTravelToo",
+ },
+ {
+   title: "weTravel",
+   description: "Javascript, Handlebars, Cloudinary, Sequelize, Express",
+   line: "A travel blog site where users can login and create blogs, upload photos, and comment on other blogs.",
+   img: require("../../assets/photos/weTravel.png"),
+   alt: "Screenshots of the weTravel site",
+   website: "https://murmuring-reef-03220.herokuapp.com/",
+   repo: "https://github.com/TheDecoder007/weTravel",
   },
   {
     title: "Decentraland",
@@ -20,7 +30,6 @@ export const projects = [
       "https://play.decentraland.org/?position=142%2C106&realm=unicorn&island=I59kf",
     repo: "https://github.com/TheDecoder007/VoiceBox_Lawn",
   },
-
   {
     title: "entertainMe",
     description: "Javascript, jQuery, Bulma",

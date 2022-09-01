@@ -199,4 +199,19 @@
     .footLink{
         padding-left: 20px;
     }
+
+    .nav-link {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 412px) {
+
+    .nav-link {
+        font-size: small;
+    }
+    .NavBrand {
+        font-size: x-small;
+    }
+
 }
