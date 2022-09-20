@@ -8,7 +8,7 @@ export const projects = [
     img: require("../../assets/photos/weTravelToo.png"),
     alt: "Screenshot of weTravelToo",
     website:
-      "https://morning-badlands-21539.herokuapp.com/",
+      "https://we-travel-too.herokuapp.com/",
     repo: "https://github.com/TheDecoder007/weTravelToo",
  },
  {
