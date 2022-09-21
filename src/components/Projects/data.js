@@ -1,24 +1,23 @@
 //when refactoring, turn this into an array of objects, and use map function
 //in the index file, instead of exporting/importing each one
 export const projects = [
- {
+  {
     title: "weTravelToo",
     description: "Full MERN stack",
-    line: "A remake of weTravel, using the full MERN stack, and imporving the UI.",
+    line: "A remake of weTravel, using the full MERN stack, and improving the UI.",
     img: require("../../assets/photos/weTravelToo.png"),
     alt: "Screenshot of weTravelToo",
-    website:
-      "https://we-travel-too.herokuapp.com/",
+    website: "https://we-travel-too.herokuapp.com/",
     repo: "https://github.com/TheDecoder007/weTravelToo",
- },
- {
-   title: "weTravel",
-   description: "Javascript, Handlebars, Cloudinary, Sequelize, Express",
-   line: "A travel blog site where users can login and create blogs, upload photos, and comment on other blogs.",
-   img: require("../../assets/photos/weTravel.png"),
-   alt: "Screenshots of the weTravel site",
-   website: "https://murmuring-reef-03220.herokuapp.com/",
-   repo: "https://github.com/TheDecoder007/weTravel",
+  },
+  {
+    title: "weTravel",
+    description: "Javascript, Handlebars, Cloudinary, Sequelize, Express",
+    line: "A travel blog site where users can login and create blogs, upload photos, and comment on other blogs.",
+    img: require("../../assets/photos/weTravel.png"),
+    alt: "Screenshots of the weTravel site",
+    website: "https://murmuring-reef-03220.herokuapp.com/",
+    repo: "https://github.com/TheDecoder007/weTravel",
   },
   {
     title: "Decentraland",
