@@ -3,8 +3,8 @@
 export const projects = [
   {
     title: "weTravelToo",
-    description: "Full MERN stack",
-    line: "A remake of weTravel, using the full MERN stack, and improving the UI.",
+    description: "Full MERN stack, react-bootstrap",
+    line: "A complete remake of weTravel from scratch, using the full MERN stack, and improving the UI.",
     img: require("../../assets/photos/weTravelToo.png"),
     alt: "Screenshot of weTravelToo",
     website: "https://we-travel-too.herokuapp.com/",
