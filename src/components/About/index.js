@@ -39,6 +39,18 @@ const About = () => {
             development, and customer service.
             <br />
             <br />
+            <h3>Experience:</h3>
+            -Metaverse experience includes 2 years working for The Last Slice
+            Collective, a full cycle development studio for high profile clients
+            in Decentraland. Primary roles were advisory positions and scene
+            development.
+            <br />
+            -Lead developer for SandStorm.co virtual headquarters in
+            Decentraland. 11 week project adding client requests, and
+            implementing advanced coding to give additional functionality, space
+            utilization, and "magic".
+            <br />
+            <br />
             <h3>Education:</h3>
             <h5>Univerity of Connecticut School of Engineering</h5>
             <h6>Full Stack Bootcamp</h6>
@@ -46,18 +58,6 @@ const About = () => {
             applications. Skills learned include: HTML, CSS, Javascript, JQuery,
             Bootstrap, Node.JS, MySQL, MongoDB, Express, API's, Handlebars,
             React, and GraphQL. Self learning React-Threes, Solidity, and AWS.
-            <br />
-            <br />
-            <h3>Experience:</h3>
-            -Metaverse experience includes 2 years working for The Last Slice
-            Collective, a full cycle development studio for high profile clients
-            in Decentraland. Primarily roles were advisory positions and scene
-            development.
-            <br />
-            -Lead developer for SandStorm.co virtual headquarters in
-            Decentraland. 11 week project adding client requests, and
-            implementing advanced coding to give additional functionality, space
-            utilization, and "magic".
           </p>
         </Col>
       </Row>

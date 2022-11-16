@@ -1,5 +1,5 @@
 import React from "react";
-import Video from "../../assets/videos/DecoderIntroCrop2.mp4";
+import Video from "../../assets/videos/DecoderIntroCrop3.mp4";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import "./style.css";
