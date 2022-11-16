@@ -11,14 +11,13 @@ import Hero from "./components/Hero";
 import PageFooter from "./components/Footer";
 
 function App() {
-  const [activeTab, setActiveTab] = useState("Projects");
+  const [activeTab, setActiveTab] = useState("About");
 
   const currentPage = () => {
     if (activeTab === "About") return <About />;
     if (activeTab === "Projects") return <Projects />;
     if (activeTab === "Contact") return <Contact />;
   };
-
 
   const changeActiveTab = (tab) => setActiveTab(tab);
 
@@ -27,7 +26,7 @@ function App() {
       <TopNav activeTab={activeTab} changeActiveTab={changeActiveTab} />
       <Hero></Hero>
       {currentPage()}
-      <PageFooter/>
+      <PageFooter />
     </Container>
   );
 }

@@ -54,7 +54,7 @@ const About = () => {
             <h3>Education:</h3>
             <h5>Univerity of Connecticut School of Engineering</h5>
             <h6>Full Stack Bootcamp</h6>
-            -24-week intensive program dedicated to designing and building web
+            -24 week intensive program dedicated to designing and building web
             applications. Skills learned include: HTML, CSS, Javascript, JQuery,
             Bootstrap, Node.JS, MySQL, MongoDB, Express, API's, Handlebars,
             React, and GraphQL. Self learning React-Threes, Solidity, and AWS.
