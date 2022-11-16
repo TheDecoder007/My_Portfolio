@@ -11,6 +11,25 @@ export const projects = [
     repo: "https://github.com/TheDecoder007/weTravelToo",
   },
   {
+    title: "SandStorm HQ",
+    description: "TypeScript, Node, JavaScript",
+    line: "Lead developer on virtual HQ for Sandstorm.co. Repository is private, but can provide references. Sign in as Guest to see the build.",
+    img: require("../../assets/photos/sandStorm3.png"),
+    alt: "Screenshots of SandStorm HQ",
+    website:
+      "https://play.decentraland.org/?position=50%2C-84&realm=artemis&island=I4ozf",
+    repo: "https://github.com/last-slice/sandstorm-hq",
+  },
+  {
+    title: "Last Slice Collective",
+    description: "Javascript, Node, Typescript, DCL SDK",
+    line: "A web3 collective I've been working with, that onboards and builds experiences in the Metaverse for high-profile clients around the world.",
+    img: require("../../assets/photos/lastslice-pic.png"),
+    alt: "Screenshots of the Last Slice site",
+    website: "https://LastSlice.org",
+    repo: "https://LastSlice.org",
+  },
+  {
     title: "weTravel",
     description: "Javascript, Handlebars, Cloudinary, Sequelize, Express",
     line: "A travel blog site where users can login and create blogs, upload photos, and comment on other blogs.",
@@ -38,17 +57,6 @@ export const projects = [
     website: "https://vertis-z.github.io/entertain-me/",
     repo: "https://github.com/Vertis-Z/entertain-me",
   },
-
-  {
-    title: "Last Slice Collective",
-    description: "Javascript, Node, Typescript, DCL SDK",
-    line: "A web3 collective I've been working with, that onboards and builds experiences in the Metaverse for high-profile clients around the world.",
-    img: require("../../assets/photos/lastslice-pic.png"),
-    alt: "Screenshots of the Last Slice site",
-    website: "https://LastSlice.org",
-    repo: "https://LastSlice.org",
-  },
-
   {
     title: "Weather Dashboard",
     description: "HTML, CSS, Javascript, Bulma, Weather API",

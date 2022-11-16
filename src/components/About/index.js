@@ -28,31 +28,36 @@ const About = () => {
 
         <Col className="AboutMe">
           <p>
-            <h5>Education:</h5>
-            lorem ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum impsum
-            lorem lorem ipsum impsum lore m lorem ipsum impsum lorem lorem ipsum
-            impsum lorem lorem ipsum i mpsum lorem lorem ipsum impsum lorem
-            lorem ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum impsum
-            lorem lorem ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum
-            impsum lorem
+            <h3>Ambitions:</h3>
+            My passion is developing cutting edge experiences in the metaverse
+            for high profile clients worldwide. Successes include builds for
+            Samsung, Netflix, and Sandstorm among many others. I love the
+            prospects of web3 & the metaverse, building apps, and constantly
+            expanding my knowledge of coding languages. Projects also include
+            full MERN stack, API's, and more. Strong leadership experience with
+            proven success in team management, strategic operations, business
+            development, and customer service.
             <br />
             <br />
-            <h5>Ambitions:</h5>
-            lorem ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum impsum
-            lorem lorem ipsum impsum lore m lorem ipsum impsum lorem lorem ipsum
-            impsum lorem lorem ipsum i mpsum lorem lorem ipsum impsum lorem
-            lorem ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum impsum
-            lorem lorem ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum
-            impsum lorem
+            <h3>Education:</h3>
+            <h5>Univerity of Connecticut School of Engineering</h5>
+            <h6>Full Stack Bootcamp</h6>
+            -24-week intensive program dedicated to designing and building web
+            applications. Skills learned include: HTML, CSS, Javascript, JQuery,
+            Bootstrap, Node.JS, MySQL, MongoDB, Express, API's, Handlebars,
+            React, and GraphQL. Self learning React-Threes, Solidity, and AWS.
             <br />
             <br />
-            <h5>Experience:</h5>            
-            lorem ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum impsum
-            lorem lorem ipsum impsum lore m lorem ipsum impsum lorem lorem ipsum
-            impsum lorem lorem ipsum i mpsum lorem lorem ipsum impsum lorem
-            lorem ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum impsum
-            lorem lorem ipsum impsum lorem lorem ipsum impsum lorem lorem ipsum
-            impsum lorem
+            <h3>Experience:</h3>
+            -Metaverse experience includes 2 years working for The Last Slice
+            Collective, a full cycle development studio for high profile clients
+            in Decentraland. Primarily roles were advisory positions and scene
+            development.
+            <br />
+            -Lead developer for SandStorm.co virtual headquarters in
+            Decentraland. 11 week project adding client requests, and
+            implementing advanced coding to give additional functionality, space
+            utilization, and "magic".
           </p>
         </Col>
       </Row>

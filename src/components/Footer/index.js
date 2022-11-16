@@ -22,7 +22,7 @@ function PageFooter() {
           >
             GitHub
           </Nav.Link>
-          <Nav.Link className="footerText" href={pdf}>
+          <Nav.Link className="footerText" target={"_blank"} href={pdf}>
             Resume
           </Nav.Link>
           <Nav.Link
