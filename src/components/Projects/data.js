@@ -18,7 +18,7 @@ export const projects = [
     alt: "Screenshots of SandStorm HQ",
     website:
       "https://play.decentraland.org/?position=50%2C-84&realm=artemis&island=I4ozf",
-    repo: "https://github.com/last-slice/sandstorm-hq",
+    repo: "https://github.com/last-slice/sandstorm-hq/tree/dev",
   },
   {
     title: "Last Slice Collective",
