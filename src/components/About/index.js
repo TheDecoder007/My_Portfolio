@@ -29,10 +29,10 @@ const About = () => {
         <Col className="AboutMe">
           <p>
             <h3>Ambitions:</h3>
-            My passion is developing cutting edge experiences in the metaverse
+            My passion is developing cutting edge experiences in the Metaverse
             for high profile clients worldwide. Successes include builds for
             Samsung, Netflix, and Sandstorm among many others. I love the
-            prospects of web3 & the metaverse, building apps, and constantly
+            prospects of web3 & the Metaverse, building apps, and constantly
             expanding my knowledge of coding languages. Projects also include
             full MERN stack, API's, and more. Strong leadership experience with
             proven success in team management, strategic operations, business
