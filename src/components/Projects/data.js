@@ -23,7 +23,7 @@ export const projects = [
   {
     title: "Last Slice Collective",
     description: "Javascript, Node, Typescript, DCL SDK",
-    line: "A web3 collective I've been working with, that onboards and builds experiences in the Metaverse for high-profile clients around the world.",
+    line: "A full cycle web3 development studio, that onboards and builds experiences in the Metaverse for high-profile clients around the world.",
     img: require("../../assets/photos/lastslice-pic.png"),
     alt: "Screenshots of the Last Slice site",
     website: "https://LastSlice.org",
