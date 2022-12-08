@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.7dc84fe4.css",
-    "main.js": "/my-portfolio/static/js/main.5b2aa7ea.js",
+    "main.js": "/my-portfolio/static/js/main.d42d72f5.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/DecoderIntroCrop3.mp4": "/my-portfolio/static/media/DecoderIntroCrop3.437724bbc3f70b4f78b9.mp4",
     "static/media/FacePic.png": "/my-portfolio/static/media/FacePic.15c5e33f9b94ae81c25c.png",
@@ -14,16 +14,16 @@
     "static/media/Voicebox.png": "/my-portfolio/static/media/Voicebox.d0cdfb08096966a37e1c.png",
     "static/media/first-portfolio.png": "/my-portfolio/static/media/first-portfolio.507e21bbdc42aff68188.png",
     "static/media/lastslice-pic.png": "/my-portfolio/static/media/lastslice-pic.5e99cae064e0b975f8e9.png",
-    "static/media/Metaverse_Resume.pdf": "/my-portfolio/static/media/Metaverse_Resume.f49816a4b76b5071eae6.pdf",
+    "static/media/Metaverse_Resume.pdf": "/my-portfolio/static/media/Metaverse_Resume.b26af5af94a1efa3ebfe.pdf",
     "static/media/quizPic.png": "/my-portfolio/static/media/quizPic.668f508212e84ddfa3c8.png",
     "static/media/Weather-app.png": "/my-portfolio/static/media/Weather-app.5c3ffa8afa4e2fe4f5d5.png",
     "index.html": "/my-portfolio/index.html",
     "main.7dc84fe4.css.map": "/my-portfolio/static/css/main.7dc84fe4.css.map",
-    "main.5b2aa7ea.js.map": "/my-portfolio/static/js/main.5b2aa7ea.js.map",
+    "main.d42d72f5.js.map": "/my-portfolio/static/js/main.d42d72f5.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7dc84fe4.css",
-    "static/js/main.5b2aa7ea.js"
+    "static/js/main.d42d72f5.js"
   ]
 }
