@@ -35,7 +35,7 @@ export const projects = [
     line: "A travel blog site where users can login and create blogs, upload photos, and comment on other blogs.",
     img: require("../../assets/photos/weTravel.png"),
     alt: "Screenshots of the weTravel site",
-    website: "https://murmuring-reef-03220.herokuapp.com/",
+    website: "https://we-travel.herokuapp.com/",
     repo: "https://github.com/TheDecoder007/weTravel",
   },
   {
