@@ -4,6 +4,8 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 
 import Video2 from "../../../assets/videos/LightningHeader.mp4";
+// import Video3 from "../../assets/videos/sandstormVid.mp4";
+
 
 // import {
 //   ImageWrapper,
@@ -32,7 +34,7 @@ function ProjectCard({ img, title, description, line, alt, website, repo }) {
           <div className="cardTitle">{title}</div>
         </Card.Header>
 
-        <Card.Img src={img} alt={alt} />
+        <Card.Img className="imgHeader" src={img} alt={alt} />
 
         <Card.Body>
           <Card.Subtitle>Technologies Used: {description}</Card.Subtitle>

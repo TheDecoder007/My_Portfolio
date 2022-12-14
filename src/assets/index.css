@@ -62,9 +62,27 @@
     justify-content: center;
 }
 
+
 .card-img, .card-img-top {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+}
+
+.imgHeader {
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    border: none;
+}
+ .imgVid {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
  }
  
 .btnDiv {
