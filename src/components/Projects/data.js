@@ -14,11 +14,7 @@ export const projects = [
     title: "SandStorm HQ",
     description: "TypeScript, Node, JavaScript",
     line: "Lead developer on virtual HQ for Sandstorm.co. Repository is private, but can provide references. Sign in as Guest to see the build.",
-    vid: (
-      <video autoPlay loop muted id="video" className="headerVid">
-        <source src="../../assets/videos/sandstormVid.mp4" type="video/mp4" />
-      </video>
-    ),
+    vid: require("../../assets/videos/sandstormVid.mp4"),
     alt: "Screenshots of SandStorm HQ",
     website:
       "https://play.decentraland.org/?position=50%2C-84&realm=artemis&island=I4ozf",

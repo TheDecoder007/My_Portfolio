@@ -29,9 +29,28 @@ function ProjectCard({
           <div className="cardTitle">{title}</div>
         </Card.Header>
 
-          <Card.Img className="vidHeader" src={img || vid} alt={alt}>
-         
-          </Card.Img>
+        <div className="imgHeader">
+                <video autoPlay loop muted id="video" className="headerVid">
+                  <source src={vid} type="video/mp4" />
+                </video>
+              </div>
+              <Card.Img src={img} alt={alt}></Card.Img>
+
+        {/* <div>
+          {img} === null (
+            <>
+              <div className="imgHeader">
+                <video autoPlay loop muted id="video" className="headerVid">
+                  <source src={vid} type="video/mp4" />
+                </video>
+              </div>
+            </>
+          ) : (
+            <>
+              <Card.Img src={img} alt={alt}></Card.Img>
+            </>
+          )}
+        </div> */}
 
         {/* <div className="imgHeader">
           {{ img, vid } ? (
