@@ -29,18 +29,11 @@ function ProjectCard({
           <div className="cardTitle">{title}</div>
         </Card.Header>
 
-        <div className="imgHeader">
-                <video autoPlay loop muted id="video" className="headerVid">
-                  <source src={vid} type="video/mp4" />
-                </video>
-              </div>
-              <Card.Img src={img} alt={alt}></Card.Img>
-
-        {/* <div>
-          {img} === null (
+        <div>
+          {img === null ? (
             <>
               <div className="imgHeader">
-                <video autoPlay loop muted id="video" className="headerVid">
+                <video autoPlay loop muted id="video" className="imgVid">
                   <source src={vid} type="video/mp4" />
                 </video>
               </div>
@@ -50,21 +43,7 @@ function ProjectCard({
               <Card.Img src={img} alt={alt}></Card.Img>
             </>
           )}
-        </div> */}
-
-        {/* <div className="imgHeader">
-          {{ img, vid } ? (
-              <Card.Img className="imgHeader">
-                <video autoPlay loop muted id="video" className="headerVid">
-                  <source src={Video2} type="video/mp4" />
-                </video>
-              </Card.Img>
-          ) : (
-            <>
-            <Card.Img src={img}></Card.Img>
-            </>
-          )}
-        </div> */}
+        </div>
 
         <Card.Body>
           <Card.Subtitle>Technologies Used: {description}</Card.Subtitle>

@@ -5,7 +5,8 @@ export const projects = [
     title: "weTravelToo",
     description: "Full MERN stack, react-bootstrap",
     line: "A complete remake of weTravel from scratch, using the full MERN stack, and improving the UI.",
-    img: require("../../assets/photos/weTravelToo.png"),
+    vid: require("../../assets/videos/weTravelVid.mp4"),
+    img: null,
     alt: "Screenshot of weTravelToo",
     website: "https://we-travel-too.herokuapp.com/",
     repo: "https://github.com/TheDecoder007/weTravelToo",
@@ -15,6 +16,7 @@ export const projects = [
     description: "TypeScript, Node, JavaScript",
     line: "Lead developer on virtual HQ for Sandstorm.co. Repository is private, but can provide references. Sign in as Guest to see the build.",
     vid: require("../../assets/videos/sandstormVid.mp4"),
+    img: null,
     alt: "Screenshots of SandStorm HQ",
     website:
       "https://play.decentraland.org/?position=50%2C-84&realm=artemis&island=I4ozf",

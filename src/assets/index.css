@@ -70,7 +70,7 @@
 
 .imgHeader {
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     align-items: center;
     justify-content: center;
     padding: 0px;
@@ -79,7 +79,7 @@
 }
  .imgVid {
     object-fit: cover;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     height: 100%;
