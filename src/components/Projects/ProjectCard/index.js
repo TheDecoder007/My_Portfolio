@@ -6,21 +6,16 @@ import Col from "react-bootstrap/Col";
 import Video2 from "../../../assets/videos/LightningHeader.mp4";
 // import Video3 from "../../assets/videos/sandstormVid.mp4";
 
-
-// import {
-//   ImageWrapper,
-//   DescriptionWrapper,
-//   HeaderSection,
-//   MainTitle,
-//   SubTitle,
-//   Content,
-//   Image,
-//   ButtonWrapper,
-// } from "./CardElements";
-// import { Button } from "../../ButtonElement";
-function ProjectCard({ img, title, description, line, alt, website, repo }) {
-
-
+function ProjectCard({
+  img,
+  vid,
+  title,
+  description,
+  line,
+  alt,
+  website,
+  repo,
+}) {
   return (
     <Col className="CardCol">
       <Card
@@ -34,25 +29,40 @@ function ProjectCard({ img, title, description, line, alt, website, repo }) {
           <div className="cardTitle">{title}</div>
         </Card.Header>
 
-        <Card.Img className="imgHeader" src={img} alt={alt} />
+          <Card.Img className="vidHeader" src={img || vid} alt={alt}>
+         
+          </Card.Img>
+
+        {/* <div className="imgHeader">
+          {{ img, vid } ? (
+              <Card.Img className="imgHeader">
+                <video autoPlay loop muted id="video" className="headerVid">
+                  <source src={Video2} type="video/mp4" />
+                </video>
+              </Card.Img>
+          ) : (
+            <>
+            <Card.Img src={img}></Card.Img>
+            </>
+          )}
+        </div> */}
 
         <Card.Body>
           <Card.Subtitle>Technologies Used: {description}</Card.Subtitle>
           <br />
           <Card.Text>{line}</Card.Text>
-          <>
-          </>
+          <></>
         </Card.Body>
-          <Card.Footer className="btnDiv">
-            <Button className="AllBtn" as="a" href={website} target="_blank">
-              Live App  
-            </Button>
-            <Button className="AllBtn" as="a" href={repo} target="_blank">
-              Github Repo
-            </Button>
-          </Card.Footer>
-         
-          {/* )} */}
+        <Card.Footer className="btnDiv">
+          <Button className="AllBtn" as="a" href={website} target="_blank">
+            Live App
+          </Button>
+          <Button className="AllBtn" as="a" href={repo} target="_blank">
+            Github Repo
+          </Button>
+        </Card.Footer>
+
+        {/* )} */}
       </Card>
     </Col>
   );

@@ -1,3 +1,4 @@
+// import Video3 from "../../assets/videos/sandstormVid.mp4";
 
 export const projects = [
   {
@@ -13,7 +14,11 @@ export const projects = [
     title: "SandStorm HQ",
     description: "TypeScript, Node, JavaScript",
     line: "Lead developer on virtual HQ for Sandstorm.co. Repository is private, but can provide references. Sign in as Guest to see the build.",
-    img: require("../../assets/photos/sandStorm3.png"),
+    vid: (
+      <video autoPlay loop muted id="video" className="headerVid">
+        <source src="../../assets/videos/sandstormVid.mp4" type="video/mp4" />
+      </video>
+    ),
     alt: "Screenshots of SandStorm HQ",
     website:
       "https://play.decentraland.org/?position=50%2C-84&realm=artemis&island=I4ozf",
