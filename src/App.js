@@ -11,7 +11,7 @@ import Hero from "./components/Hero";
 import PageFooter from "./components/Footer";
 
 function App() {
-  const [activeTab, setActiveTab] = useState("About");
+  const [activeTab, setActiveTab] = useState("Projects");
 
   const currentPage = () => {
     if (activeTab === "About") return <About />;
