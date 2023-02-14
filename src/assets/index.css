@@ -104,6 +104,11 @@
     height: 50px;
 }
 
+.AboutHeader {
+    background-color: aqua;
+    color: var(--secondary);
+}
+
 .headerVid {
     object-fit: cover;
   position: absolute;
@@ -117,6 +122,14 @@
     font-size: xx-large;
     text-shadow: 0 0 3px black;
     color: white;
+ }
+
+ .AboutTitle { 
+    position: relative;
+    font-size: xx-large;
+    text-shadow: 0 0 3px white;
+    color: var(--secondary);
+    font-weight:bolder
  }
 
 .sectionHead {
