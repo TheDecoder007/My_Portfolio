@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.7211ce89.css",
-    "main.js": "/my-portfolio/static/js/main.952e0988.js",
+    "main.css": "/my-portfolio/static/css/main.9600a8ab.css",
+    "main.js": "/my-portfolio/static/js/main.f1e9f2eb.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/weTravelVid.mp4": "/my-portfolio/static/media/weTravelVid.748b394bdb3f639de62e.mp4",
     "static/media/sandstormVid.mp4": "/my-portfolio/static/media/sandstormVid.06f4a1058b9657deeb2b.mp4",
     "static/media/DecoderIntroCrop3.mp4": "/my-portfolio/static/media/DecoderIntroCrop3.437724bbc3f70b4f78b9.mp4",
-    "static/media/FacePic.png": "/my-portfolio/static/media/FacePic.15c5e33f9b94ae81c25c.png",
     "static/media/photo-port.png": "/my-portfolio/static/media/photo-port.17768690b2e9f95b29c5.png",
     "static/media/entertainme.png": "/my-portfolio/static/media/entertainme.dc3c2a38c420d3e39420.png",
     "static/media/LightningHeader.mp4": "/my-portfolio/static/media/LightningHeader.33b643b74af292c706af.mp4",
@@ -14,16 +13,17 @@
     "static/media/Voicebox.png": "/my-portfolio/static/media/Voicebox.d0cdfb08096966a37e1c.png",
     "static/media/first-portfolio.png": "/my-portfolio/static/media/first-portfolio.507e21bbdc42aff68188.png",
     "static/media/lastslice-pic.png": "/my-portfolio/static/media/lastslice-pic.5e99cae064e0b975f8e9.png",
+    "static/media/NewMurpheusCrop.jpg": "/my-portfolio/static/media/NewMurpheusCrop.ce8ecc0529b057290b64.jpg",
     "static/media/Metaverse_Resume.pdf": "/my-portfolio/static/media/Metaverse_Resume.b26af5af94a1efa3ebfe.pdf",
     "static/media/quizPic.png": "/my-portfolio/static/media/quizPic.668f508212e84ddfa3c8.png",
     "static/media/Weather-app.png": "/my-portfolio/static/media/Weather-app.5c3ffa8afa4e2fe4f5d5.png",
     "index.html": "/my-portfolio/index.html",
-    "main.7211ce89.css.map": "/my-portfolio/static/css/main.7211ce89.css.map",
-    "main.952e0988.js.map": "/my-portfolio/static/js/main.952e0988.js.map",
+    "main.9600a8ab.css.map": "/my-portfolio/static/css/main.9600a8ab.css.map",
+    "main.f1e9f2eb.js.map": "/my-portfolio/static/js/main.f1e9f2eb.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7211ce89.css",
-    "static/js/main.952e0988.js"
+    "static/css/main.9600a8ab.css",
+    "static/js/main.f1e9f2eb.js"
   ]
 }
