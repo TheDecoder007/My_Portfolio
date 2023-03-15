@@ -23,6 +23,15 @@ export const projects = [
     repo: "https://github.com/last-slice/sandstorm-hq/tree/dev",
   },
   {
+    title: "Hibbard & Rosa Architects",
+    description: "React, Javascript, React-Bootstrap, Node",
+    line: "A simple webpage(still in development) for a well known architecture business.",
+    img: require("../../assets/photos/HBArch.png"),
+    alt: "Screenshots of thewebsite",
+    website: "https://thedecoder007.github.io/architects/",
+    repo: "https://github.com/TheDecoder007/architects",
+  },
+  {
     title: "Last Slice Collective",
     description: "Javascript, Node, Typescript, DCL SDK",
     line: "A full cycle web3 development studio, that onboards and builds experiences in the Metaverse for high-profile clients around the world.",
