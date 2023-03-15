@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.9600a8ab.css",
-    "main.js": "/my-portfolio/static/js/main.f1e9f2eb.js",
+    "main.js": "/my-portfolio/static/js/main.b3497d94.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/weTravelVid.mp4": "/my-portfolio/static/media/weTravelVid.748b394bdb3f639de62e.mp4",
     "static/media/sandstormVid.mp4": "/my-portfolio/static/media/sandstormVid.06f4a1058b9657deeb2b.mp4",
     "static/media/DecoderIntroCrop3.mp4": "/my-portfolio/static/media/DecoderIntroCrop3.437724bbc3f70b4f78b9.mp4",
     "static/media/photo-port.png": "/my-portfolio/static/media/photo-port.17768690b2e9f95b29c5.png",
     "static/media/entertainme.png": "/my-portfolio/static/media/entertainme.dc3c2a38c420d3e39420.png",
+    "static/media/HBArch.png": "/my-portfolio/static/media/HBArch.3bd7ed7ff260c1a3aa92.png",
     "static/media/LightningHeader.mp4": "/my-portfolio/static/media/LightningHeader.33b643b74af292c706af.mp4",
     "static/media/weTravel.png": "/my-portfolio/static/media/weTravel.2fbc488fb6153fbeb4b6.png",
     "static/media/Voicebox.png": "/my-portfolio/static/media/Voicebox.d0cdfb08096966a37e1c.png",
@@ -19,11 +20,11 @@
     "static/media/Weather-app.png": "/my-portfolio/static/media/Weather-app.5c3ffa8afa4e2fe4f5d5.png",
     "index.html": "/my-portfolio/index.html",
     "main.9600a8ab.css.map": "/my-portfolio/static/css/main.9600a8ab.css.map",
-    "main.f1e9f2eb.js.map": "/my-portfolio/static/js/main.f1e9f2eb.js.map",
+    "main.b3497d94.js.map": "/my-portfolio/static/js/main.b3497d94.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9600a8ab.css",
-    "static/js/main.f1e9f2eb.js"
+    "static/js/main.b3497d94.js"
   ]
 }
